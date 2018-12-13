@@ -28,8 +28,8 @@ function toBinary(n){
 
 // Questão 2
 var rotate = function (a, n) {
-  var validator = a.length;
-  return arr.slice(validator - n).concat(arr.slice(0, validator - n));
+  var k = a.length;
+  return arr.slice(k - n).concat(arr.slice(0, k - n));
 };
 var a = [3,8,9,7,6];
 console.log( rotate( a, 2 ));
